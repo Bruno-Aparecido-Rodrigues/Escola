@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-08 04:48:49 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDk7MjAyMi0wNi0wODsiMDM6MTI6MzUgIjsyODA2"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDk7MjAyMi0wNi0wODsiMDM6MTI6MzggIjsxO0ZBVEVDIFpPTkEgTEVTVEU7TEFCMTAzLTA5OzIwMjItMDYtMDg7IjAzOjEwOjEzICI7ZXhlbXBsbyA3LmZwcmc7NzE2MQ=="/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDk7MjAyMi0wNi0wODsiMDM6MTQ6MzQgIjsxOzI5MTU="/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtUMDEtMDQ7MjAyMi0wNi0wODsiMDQ6NDg6NDkgIjsxOzI3NTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="an, aa, ida, id2050" type="Real" array="False" size=""/>
+            <declare name="i" type="Integer" array="False" size=""/>
+            <assign variable="aa" expression="2022"/>
+            <output expression="&quot;calcular a idade de 10 pessoas em 2050&quot;" newline="True"/>
+            <for variable="i" start="1" end="10" direction="inc" step="1">
+                <output expression="&quot;Digite o ano que voc&#234; nasceu&quot;" newline="True"/>
+                <input variable="an"/>
+                <assign variable="ida" expression="aa-an"/>
+                <assign variable="id2050" expression="2050-an"/>
+                <output expression="&quot;Sua idade atual &#233; =&quot; &amp;ida" newline="True"/>
+                <output expression="&quot;Sua idade em 2050 ser&#225;=&quot; &amp;id2050" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

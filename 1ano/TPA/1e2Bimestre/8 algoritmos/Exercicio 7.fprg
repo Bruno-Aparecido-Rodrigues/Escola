@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="dti"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-11 05:13:48 "/>
+        <attribute name="created" value="ZHRpO0xBQjIwMy0wNzsyMDIyLTA1LTExOyIwNDo1NToxMCAiOzIwMDg="/>
+        <attribute name="edited" value="ZHRpO0xBQjIwMy0wNzsyMDIyLTA1LTExOyIwNToxMzo0OCAiOzE7MjEyMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Dia1, Dia2, Mes1, Mes2, Ano1, Ano2" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero referente ao 1&#176;Dia&quot;" newline="True"/>
+            <input variable="Dia1"/>
+            <output expression="&quot;Digite um n&#250;mero referente ao 2&#176;Dia&quot;" newline="True"/>
+            <input variable="Dia2"/>
+            <output expression="&quot;Digite um n&#250;mero referente ao 1&#176;Mes&quot;" newline="True"/>
+            <input variable="Mes1"/>
+            <output expression="&quot;Digite um n&#250;mero referente ao 2&#176;Mes&quot;" newline="True"/>
+            <input variable="Mes2"/>
+            <output expression="&quot;Digite um n&#250;mero referente ao 1&#176;Ano&quot;" newline="True"/>
+            <input variable="Ano1"/>
+            <output expression="&quot;Digite um n&#250;mero referente ao 2&#176;Ano&quot;" newline="True"/>
+            <input variable="Ano2"/>
+            <if expression="Ano1&lt;Ano2">
+                <then>
+                    <output expression="Dia1 &amp; &quot;/&quot; &amp; Mes1 &amp; &quot;/&quot; &amp; Ano1" newline="True"/>
+                    <output expression="Dia2 &amp; &quot;/&quot; &amp; Mes2 &amp; &quot;/&quot; &amp; Ano2" newline="True"/>
+                </then>
+                <else>
+                    <if expression="Ano2&lt;Ano1">
+                        <then>
+                            <output expression="Dia2 &amp; &quot;/&quot; &amp; Mes2 &amp; &quot;/&quot; &amp; Ano2" newline="True"/>
+                            <output expression="Dia1 &amp; &quot;/&quot; &amp; Mes1 &amp; &quot;/&quot; &amp; Ano1" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="(Ano1=Ano2)&amp;&amp;(Mes1&lt;Mes2)">
+                                <then>
+                                    <output expression="Dia1 &amp; &quot;/&quot; &amp; Mes1 &amp; &quot;/&quot; &amp; Ano1" newline="True"/>
+                                    <output expression="Dia2 &amp; &quot;/&quot; &amp; Mes2 &amp; &quot;/&quot; &amp; Ano2" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="(Ano1=Ano2)&amp;&amp;(Mes2&lt;Mes1)">
+                                        <then>
+                                            <output expression="Dia2 &amp; &quot;/&quot; &amp; Mes2 &amp; &quot;/&quot; &amp; Ano2" newline="True"/>
+                                            <output expression="Dia1 &amp; &quot;/&quot; &amp; Mes1 &amp; &quot;/&quot; &amp; Ano1" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="(Ano1=Ano2)&amp;&amp; (Mes2=Mes1)&amp;&amp;(Dia1&lt;Dia2)">
+                                                <then>
+                                                    <output expression="Dia1 &amp; &quot;/&quot; &amp; Mes1 &amp; &quot;/&quot; &amp; Ano1" newline="True"/>
+                                                    <output expression="Dia2 &amp; &quot;/&quot; &amp; Mes2 &amp; &quot;/&quot; &amp; Ano2" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="(Ano1=Ano2)&amp;&amp; (Mes2=Mes1)&amp;&amp;(Dia2&lt;Dia1)">
+                                                        <then>
+                                                            <output expression="Dia2 &amp; &quot;/&quot; &amp; Mes2 &amp; &quot;/&quot; &amp; Ano2" newline="True"/>
+                                                            <output expression="Dia1 &amp; &quot;/&quot; &amp; Mes1 &amp; &quot;/&quot; &amp; Ano1" newline="True"/>
+                                                        </then>
+                                                        <else/>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

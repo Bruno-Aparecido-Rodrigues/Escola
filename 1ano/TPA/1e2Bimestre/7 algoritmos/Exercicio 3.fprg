@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="dti"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-05 08:32:09 "/>
+        <attribute name="created" value="ZHRpO0xBQjEwNC0wMzsyMDIyLTA0LTI3OyIwMToxNjoxMiAiOzIwMDY="/>
+        <attribute name="edited" value="ZHRpO0xBQjEwNC0wMzsyMDIyLTA0LTI3OyIwMzoyMjo0OSAiOzE7MjEyMw=="/>
+        <attribute name="edited" value="U2Ftc3VuZztOT1RFQk9PSzsyMDIyLTA1LTA1OyIwODozMjowOSAiOzI7MjY0NQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="pedido" type="Integer" array="False" size=""/>
+            <output expression="&quot;Escolha um n&#250;mero referente ao seu pedido&quot;" newline="True"/>
+            <output expression="&quot;1. BigMac&quot;" newline="True"/>
+            <output expression="&quot;2. Quarteir&#227;o&quot;" newline="True"/>
+            <output expression="&quot;3. MacChicken&quot;" newline="True"/>
+            <output expression="&quot;4 Cheddar MacMelt&quot;" newline="True"/>
+            <output expression="&quot;5. MacMax&quot;" newline="True"/>
+            <input variable="pedido"/>
+            <if expression="pedido=1">
+                <then>
+                    <output expression="&quot;O seu BigMac est&#225; sendo preparado&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="pedido=2">
+                        <then>
+                            <output expression="&quot;O seu Quarteir&#227;o est&#225; sendo preparado&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="pedido=3">
+                                <then>
+                                    <output expression="&quot;O seu MacChicken est&#225; sendo preparado&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="pedido=4">
+                                        <then>
+                                            <output expression="&quot;O seu Cheddar MacMelt est&#225; sendo preparado&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="pedido=5">
+                                                <then>
+                                                    <output expression="&quot;O seu MacMax est&#225; sendo preparado&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <output expression="&quot;O lanche seleciondo n&#227;o existe&quot;" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

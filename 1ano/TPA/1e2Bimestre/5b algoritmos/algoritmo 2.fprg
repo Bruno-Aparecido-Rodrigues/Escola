@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-23 03:13:42 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtNRVRPRE9MT0dJQS0wNDsyMDIyLTAzLTIzOyIwMzowOToyMiAiOzMyNjI="/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtNRVRPRE9MT0dJQS0wNDsyMDIyLTAzLTIzOyIwMzoxMzo0MiAiOzE7MzM2Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, soma" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um valor&quot;" newline="True"/>
+            <input variable="a"/>
+            <output expression="&quot;Digite outro valor&quot;" newline="True"/>
+            <input variable="b"/>
+            <assign variable="soma" expression="a+b"/>
+            <output expression="&quot;O resultado da opera&#231;&#227;o &#233;:&quot;&amp; soma" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

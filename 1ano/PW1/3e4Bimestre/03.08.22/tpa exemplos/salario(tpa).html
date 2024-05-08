@@ -1,0 +1,37 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+         <title>Exemplo 3 TPA</title>
+		          <!--JavaScript-->
+         <script language="Javascript">
+		  function calcular (vh,ht,nd)
+		  {
+		    bn = 300;
+			
+            sb=parseFloat(vh.value)*parseFloat(ht.value);
+			liquido=sb+(bn*parseInt(nd.value));
+            alert("Seu salário bruto é: "+sb+" e o salário liquido é: "+liquido);
+           } 
+		  </script>
+		 
+    </head>
+	
+	<body>
+	<br>
+        <center><h1>Sálario</h1></center>
+        <br><br>
+    
+        <!--Formulário-->
+        <form name="salario">
+        Digite o valor hora <input type="text" name="vh">
+        <br><br>
+        Digite a quantidade de horas trabalhadas no mês <input type="text" name="ht">
+		<br><br>
+		Digite o número de dependentes <input type="text" name="nd">
+        <br><br>
+    
+        <input type="submit" value="Calcular" onclick="calcular(vh,ht,nd)">
+        </form>
+	</body>
+
+</html>

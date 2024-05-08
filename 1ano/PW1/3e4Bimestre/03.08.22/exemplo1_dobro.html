@@ -1,0 +1,34 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+         <title>Java Script</title>
+         <!--Java Script-->
+           <script language="Javascript">
+           function calcular(num)
+           {
+            n=parseInt(num.value)*2;  
+            alert("dobro= "+n);
+            document.write("Dobro = "+n);
+           }                      
+
+           </script>
+           
+    </head>
+	
+	<body>
+
+    <br>
+    <center><h1>Cálculo do Dobro</h1></center>
+    <br><br>
+
+    <!--Formulário-->
+    <form name="calculo">
+    Dê um número: <input type="text" name="num">
+
+    <br><br>
+
+    <input type="submit" value="Calcular" onclick='calcular(num)'>
+    </form>
+	</body>
+
+</html>

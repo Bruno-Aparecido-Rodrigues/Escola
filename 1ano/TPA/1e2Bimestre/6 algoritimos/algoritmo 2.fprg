@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="dti"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-06 03:21:30 "/>
+        <attribute name="created" value="ZHRpO0xBQjEwNC0wNDsyMDIyLTA0LTA2OyIwMzoxNjo0MyAiOzIwMTA="/>
+        <attribute name="edited" value="ZHRpO0xBQjEwNC0wNDsyMDIyLTA0LTA2OyIwMzoyMTozMCAiOzE7MjExMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="peixekg, multakg" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite a quantidade de quilos de peixe que voc&#234; possui&quot;" newline="True"/>
+            <input variable="peixekg"/>
+            <if expression="peixekg&gt;50">
+                <then>
+                    <assign variable="multakg" expression="(peixekg-50)*4"/>
+                    <output expression="&quot;A multa ter&#225; que ser paga referente a quantidade de peso excedido ser&#225; R$:&quot;&amp; multakg" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;N&#227;o a multa a pagar&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

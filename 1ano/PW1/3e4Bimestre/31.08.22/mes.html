@@ -1,0 +1,44 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+         <title>Aula HTML</title>
+         <!--javaScript-->
+         <script language="Javascript">
+           function verificar(mes)
+           {
+            switch (parseInt(mes.value))
+             {
+                 case 1: alert("Mês de Janeiro"); break;
+                 case 2: alert("Mês de Fevereiro"); break;
+                 case 3: alert("Mês de Março"); break;
+                 case 4: alert("Mês de Abril"); break;
+                 case 5: alert("Mês de Maio"); break;
+                 case 6: alert("Mês de Junho"); break;
+                 case 7: alert("Mês de Julho"); break;
+                 case 8: alert("Mês de Agosto"); break;
+                 case 9: alert("Mês de Setembro"); break;
+                 case 10: alert("Mês de Outubro"); break;
+                 case 11: alert("Mês de Novembro"); break;
+                 case 12: alert("Mês de Dezembro"); break;
+                  default:
+                      {
+                    alert("Resposta Inválida"); 
+                      } 
+             }       
+           }
+    
+
+          </script>
+    </head>
+	
+	<body>
+	<center><h1>mês</h1></center>
+    <form name="mês">
+      Digite o número do mês: <input type="text" name="mes">
+      <br><br>
+      <input type="submit" value="Verificar" onclick='verificar(mes)'>
+    </form>
+
+	</body>
+
+</html>

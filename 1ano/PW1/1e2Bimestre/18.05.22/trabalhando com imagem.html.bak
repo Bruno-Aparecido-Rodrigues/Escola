@@ -1,0 +1,49 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+         <title>Trabalhando com imagens</title>
+		 
+    </head>
+	
+	<body bgcolor="gray">
+	<!--Trabalhando com imagens-->
+	<center><font face="Arial, Verdana" size="5" color= "8B4513"> trabalhando com imagens</font></center>
+	<br><br><br>
+	
+	
+	
+	
+	<!--Inserindo a imagem-->
+	<center><font face="Arial, Verdana" size="3" color= "#0000FF"> Inserindo a imagem</font></center>
+	<center>IMG SRC ="NOME DA FIGURA" --- pode-se colocar o local onde a imagem está.</center>
+	<br><br><br>
+	
+	<img src = "lírio.jpg">
+	
+	
+	
+	<!--Tamanho da imagens-->
+	<center><font face="Arial, Verdana" size="3" color= "#0000FF"> Tamanho da imagem</font></center>
+	<center>Width para largura e Height para altura</center>
+	<br><br><br>
+	
+	<img src = "lírio.jpg" width="200" height="200">
+	
+	<!--Borda da imagens-->
+	<center><font face="Arial, Verdana" size="3" color= "#0000FF"> Borda na imagem</font></center>
+	<center>border = "número da espessura da borda"</center>
+	
+	<img src = "lírio.jpg" border = "5">
+	<br><br><br>
+	
+	<!--Texto Alternativo na imagens-->
+	<center><font face="Arial, Verdana" size="3" color= "#0000FF"> Texto Alternativo na imagem</font></center>
+	<center>alt = "texto" --> este irá aparecer quando a imagem não puder ser exibida</center>
+	
+	<img src = "lírioo.jpg" alt = "Lírio - o agiota">
+	<br><br><br>
+	
+	
+	</body>
+
+</html>

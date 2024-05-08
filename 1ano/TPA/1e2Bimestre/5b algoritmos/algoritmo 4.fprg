@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-23 03:24:40 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtNRVRPRE9MT0dJQS0wNDsyMDIyLTAzLTIzOyIwMzoxOTo0MyAiOzMyNjY="/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtNRVRPRE9MT0dJQS0wNDsyMDIyLTAzLTIzOyIwMzoyNDo0MCAiOzE7MzM2Nw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="R, area" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o valor do raio&quot;" newline="True"/>
+            <input variable="R"/>
+            <assign variable="area" expression="3.14*(R*R)"/>
+            <output expression="&quot;A &#225;rea &#233;:&quot;&amp; area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

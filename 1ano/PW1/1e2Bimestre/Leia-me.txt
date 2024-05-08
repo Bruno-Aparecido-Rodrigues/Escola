@@ -1,0 +1,9 @@
+prof aqui tá as questões númeradas e onde são localizadas.
+
+placa mãe: 2,3,16,17,18,21
+mémoria/armazenamento: 6,8,23
+conectores/encaixes: 1,12,13,22
+processador: 4,5,14,15,20
+hardware/software:9,10,11,19
+
+desculpa que tá mal organizado os arquivos.

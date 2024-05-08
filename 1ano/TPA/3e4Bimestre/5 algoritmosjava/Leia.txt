@@ -1,0 +1,4 @@
+Olá professor, estou avisando que utilizei de um código que o senhor ainda não mostou na questão 1 para calcular a raiz pois não encontrei nenhuma forma de resolver a raiz sem outros códigos
+----Math.sqrt()----
+
+-Bruno Aparecido

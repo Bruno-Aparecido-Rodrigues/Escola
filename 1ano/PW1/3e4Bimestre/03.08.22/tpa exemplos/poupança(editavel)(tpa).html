@@ -1,0 +1,29 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+         <title>Aula HTML</title>
+         <script language="Javascript">
+            function calcular (Dp,Ju)
+           {
+                       
+            S1= parseFloat(Dp.value) + ((parseFloat(Dp.value)/100)*parseFloat(Ju.value));
+            S2=S1+((S1/100)*parseFloat(Ju.value));
+            S3=S2+((S2/100)*parseFloat(Ju.value));
+            alert("O saldo após o terceior mês é"+S3);
+           } 
+          </script>
+    </head>
+	
+	<body>
+	  <center> poupança </center>
+      <form name="poupança">
+        O depósito inicial é de:<input type="text" name="Dp">
+        <br><br>
+        O valor do juros:<input type="text" name="Ju">
+        <br><br>
+        <input type="submit" value="Calcular" onclick="calcular(Dp,Ju)">
+
+      </form>
+	</body>
+
+</html>

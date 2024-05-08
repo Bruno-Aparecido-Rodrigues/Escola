@@ -1,0 +1,14 @@
+Aqui possui todos os login válidos (as letras maiúsculas devem ser consideradas)
+
+login 1:
+nome: Rodrigo
+senha: Saiko
+
+
+login 2:
+nome: Samy
+senha: 70correr
+
+login 3:
+nome: Sabrina
+senha: Saas

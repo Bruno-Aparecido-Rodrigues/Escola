@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-08 03:25:55 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDk7MjAyMi0wNi0wODsiMDM6MDY6MDYgIjsyODA3"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDk7MjAyMi0wNi0wODsiMDM6MDY6MDggIjsxO3ZhbGRpO0RFU0tUT1AtT041M0ZJRzsyMDIyLTAzLTI2OyIwMzowMjoyNSAiOzcuZnByZzs2MzM3"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDk7MjAyMi0wNi0wODsiMDM6MDk6NTQgIjsxOzI5MjE="/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMTI7MjAyMi0wNi0wODsiMDM6MjU6NTUgIjszOzI5MTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="an, aa, ida, id2050" type="Real" array="False" size=""/>
+            <declare name="Resp" type="String" array="False" size=""/>
+            <assign variable="aa" expression="2022"/>
+            <output expression="&quot;Deseja calcular sua idade em 2050?&quot;" newline="True"/>
+            <input variable="Resp"/>
+            <while expression="Resp=&quot;Sim&quot;">
+                <output expression="&quot;Digite o ano em que voc&#234; nasceu&quot;" newline="True"/>
+                <input variable="an"/>
+                <assign variable="ida" expression="aa-an"/>
+                <assign variable="id2050" expression="2050-an"/>
+                <output expression="&quot;Sua idade atual &#233; &quot; &amp; ida" newline="True"/>
+                <output expression="&quot;Sua idade em 2050 ser&#225;=&quot; &amp; id2050" newline="True"/>
+                <output expression="&quot;deseja calcular novamente?&quot;" newline="True"/>
+                <input variable="Resp"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

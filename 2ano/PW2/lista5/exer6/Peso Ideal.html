@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Peso ideal</title>
+</head>
+<body>
+    <form action="pesoi.php" method="POST">
+         <fieldset style="width: 40%;">
+           <legend>Dados pessoais</legend>
+	      	Nome: <input type="text" name="txtnom" /><br>
+            Peso: <input type="text" name="txtpes" /><br>
+            Sexo: <select name="cbosexo">
+                  <option value="Masculino">Masculino
+                  <option value="Feminino">Feminino
+                  </select><br>
+            Altura: <input type="text" name="txtalt" /><br> 
+           </legend> 
+        </fieldset>
+
+        <legend>Opções</legend>
+           <fieldset style="width: 40%;">
+            <input type="submit" value="Enviar">
+    	    <input type="reset"  value="Limpar">
+          </fieldset>
+    </form>
+</body>
+</html>

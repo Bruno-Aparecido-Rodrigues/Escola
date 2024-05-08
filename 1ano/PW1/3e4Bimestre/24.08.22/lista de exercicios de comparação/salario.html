@@ -1,0 +1,83 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+         <title>Aula HTML</title>
+         <script language="Javascript">
+           function reajustar(saT,codi)
+           {
+               if(parseInt(codi.value)==1)
+               {
+               re=((parseFloat(saT.value)/100)*5);
+               saN=(parseFloat(saT.value)+re);
+               alert ("Seu antigo salário era de:"+parseFloat(saT.value)+" o reajuste foi de:"+re+" e seu novo salário é de:"+saN);
+               }
+               else
+               {
+                 if(parseInt(codi.value)==2)
+                {
+                  re=((parseFloat(saT.value)/100)*10);
+                  saN=(parseFloat(saT.value)+re);
+                  alert ("Seu antigo salário era de:"+parseFloat(saT.value)+" o reajuste foi de:"+re+" e seu novo salário é de:"+saN);
+                }
+                 else
+                 {
+                    if(parseInt(codi.value)==3)
+                    {
+                    re=((parseFloat(saT.value)/100)*15);
+                    saN=(parseFloat(saT.value)+re);
+                    alert ("Seu antigo salário era de:"+parseFloat(saT.value)+" o reajuste foi de:"+re+" e seu novo salário é de:"+saN);
+                    }  
+                    else
+                    {
+                        if(parseInt(codi.value)==4)
+                        {
+                        re=((parseFloat(saT.value)/100)*20);
+                        saN=(parseFloat(saT.value)+re);
+                        alert ("Seu antigo salário era de:"+parseFloat(saT.value)+" o reajuste foi de:"+re+" e seu novo salário é de:"+saN);
+                        }       
+                        else
+                        {
+                            if(parseInt(codi.value)==5)
+                            {
+                            re=((parseFloat(saT.value)/100)*25);
+                            saN=(parseFloat(saT.value)+re);
+                            alert ("Seu antigo salário era de:"+parseFloat(saT.value)+" o reajuste foi de:"+re+" e seu novo salário é de:"+saN);
+                            }
+                            else
+                            {
+                                if(parseInt(codi.value)==6)
+                                {
+                                re=((parseFloat(saT.value)/100)*30);
+                                saN=(parseFloat(saT.value)+re);
+                                alert ("Seu antigo salário era de:"+parseFloat(saT.value)+" o reajuste foi de:"+re+" e seu novo salário é de:"+saN);
+                                }
+                                else
+                                {
+                                    alert ("não foi possivel reajustar seu salário verifique se digitou corretamente");
+                                }
+                            }
+                        }  
+                    }
+
+                 }
+
+               }
+            }
+
+          </script>
+    </head>
+	
+	<body>
+	<center><h1>Reajuste salarial</h1></center>
+    <!--formulario-->
+    <br><br>
+    <form>
+        Insira seu salário atual: <input type="text" name="saT">
+        <br><br>
+        Insira o código concebido: <input type="text" name="codi">
+        <br><br>
+        <input type="submit" value="Reajustar" onclick='reajustar(saT,codi)'>
+
+	</body>
+
+</html>

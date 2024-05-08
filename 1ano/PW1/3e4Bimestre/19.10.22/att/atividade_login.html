@@ -1,0 +1,47 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+         <title>Login</title>
+		  <!--javascript-->
+         <script language="Javascript">
+           function ver(login, senha){
+
+           var log = [];
+            log[0]="Rodrigo"; 
+            log[1]="Samy"; 
+            log[2]="Sabrina"; 
+			
+		   var sen = [];
+            sen[0]="Saiko"; 
+            sen[1]="70correr"; 
+            sen[2]="Saas";
+			
+	       if (login.value==log[0] && senha.value==sen[0]){	   
+		    document.write("<center><h3>Conta vinculada com sucesso clique no botão abaixo para ser redirecionado</h3></center> <br><br><center><a href='vetor2.html'><img src='Botao-clique-aqui-site.png' width='264' height='144' </a></center>");}
+		  else{
+		   if (login.value==log[1] && senha.value==sen[1]){	   
+		     document.write("<center><h3>Conta vinculada com sucesso clique no botão abaixo para ser redirecionado</h3></center> <br><br><center><a href='vetor2.html'><img src='Botao-clique-aqui-site.png' width='264' height='144' </a></center>");}
+			else{
+			if (login.value==log[2] && senha.value==sen[2]){	   
+		    document.write("<center><h3>Conta vinculada com sucesso clique no botão abaixo para ser redirecionado</h3></center> <br><br><center><a href='vetor2.html'><img src='Botao-clique-aqui-site.png' width='264' height='144' </a></center>"); }
+			else{
+			alert("Nome de usuário ou senha estão incorretos");}}}
+		}	
+          </script>
+    </head>
+	
+	<body>
+	 <form name="login">
+	 <center><h1>Login</h1></center>
+          Digite seu nome de usuário:<br>
+          <input type="text" name="login">
+          <br><br>
+		  Digite sua senha:<br>
+          <input type="text" name="senha">
+          <br><br>
+          <input type="submit" value="Verificar" onclick="ver(login, senha)">
+          <input type="reset" value="Limpar">
+        </form>
+	</body>
+
+</html>

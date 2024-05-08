@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-08 02:59:26 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMTI7MjAyMi0wNi0wODsiMDI6NTI6MzAgIjsyNzk4"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMTI7MjAyMi0wNi0wODsiMDI6NTM6MzggIjsyO0ZBVEVDIFpPTkEgTEVTVEU7TEFCMTAzLTEyOzIwMjItMDYtMDg7IjAyOjMyOjIxICI7ZXhlbXBsbyAxLmZwcmc7NzE1MA=="/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMTI7MjAyMi0wNi0wODsiMDI6NTk6MjYgIjsxOzI5MTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="I, Num, Res" type="Integer" array="False" size=""/>
+            <assign variable="I" expression="1"/>
+            <output expression="&quot;Informe o n&#250;mero para o c&#225;lculo da tabuada&quot;" newline="True"/>
+            <input variable="Num"/>
+            <do expression="I&lt;11">
+                <assign variable="Res" expression="I*Num"/>
+                <output expression="I &amp; &quot;*&quot; &amp; Num &amp; &quot;=&quot; &amp; Res" newline="True"/>
+                <assign variable="I" expression="I+1"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

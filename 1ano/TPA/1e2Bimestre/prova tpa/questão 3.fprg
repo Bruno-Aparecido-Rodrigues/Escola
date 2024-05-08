@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-01 01:25:18 "/>
+        <attribute name="created" value="QWx1bm87TEFCLTA4LTA0OzIwMjItMDYtMDE7IjAxOjE3OjU0ICI7MjE5OA=="/>
+        <attribute name="edited" value="QWx1bm87TEFCLTA4LTA0OzIwMjItMDYtMDE7IjAxOjI1OjE4ICI7MTsyMzA1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="custoespe, preconvite" type="Real" array="False" size=""/>
+            <declare name="convender" type="Integer" array="False" size=""/>
+            <output expression="&quot;Insira o custo do espet&#225;culo&quot;" newline="True"/>
+            <input variable="custoespe"/>
+            <output expression="&quot;Insira o pre&#231;o dos convites&quot;" newline="True"/>
+            <input variable="preconvite"/>
+            <assign variable="convender" expression="custoespe/preconvite"/>
+            <output expression="&quot;Deve ser vendido pelo menos &quot; &amp; convender &amp; &quot; para que o gasto do espet&#225;culo sej&#225; alcan&#231;ado.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

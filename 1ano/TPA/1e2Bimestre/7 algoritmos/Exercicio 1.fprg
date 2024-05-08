@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="dti"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-04 03:12:00 "/>
+        <attribute name="created" value="ZHRpO0xBQjEwNC0wMjsyMDIyLTA1LTA0OyIwMzowNjoyMSAiOzIwMDI="/>
+        <attribute name="edited" value="ZHRpO0xBQjEwNC0wMjsyMDIyLTA1LTA0OyIwMzoxMjowMCAiOzE7MjEwNA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="turno" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o hor&#225;rio que inicia seu turno de trabalho&quot;" newline="True"/>
+            <input variable="turno"/>
+            <if expression="turno=5">
+                <then>
+                    <output expression="&quot;O turno referente ao seu hor&#225;rio &#233; o da manh&#227;&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="turno=13">
+                        <then>
+                            <output expression="&quot;O turno referente ao seu hor&#225;rio &#233; o da tarde&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="turno=21">
+                                <then>
+                                    <output expression="&quot;O turno referente ao seu hor&#225;rio &#233; o da noite&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;O n&#250;mero selecionado n&#227;o est&#225; presente nas op&#231;&#245;es&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

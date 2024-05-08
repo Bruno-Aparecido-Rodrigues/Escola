@@ -1,0 +1,31 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+         <title>Tabuada</title>
+         <script language="Javascript">
+           function criar(tabua)
+		   {
+		     var cont=0;
+             var res=0;
+                 while (cont<=11)
+              {
+                 document.write(parseInt(tabua.value)+"*"+cont+"="+res,"<br>");
+				 
+				 res=parseInt(tabua.value)*cont;
+				 cont++;
+                 
+              }
+		   }
+          </script>
+    </head>
+	
+	<body>
+	<center><h1>Tabuada</h1></center>
+	
+	<form name="tabuada">
+	Digite um número para criar a tabuada: <input type="text" name="tabua">
+	<input type="submit" value="Criar" onclick='criar(tabua)'> 
+	</form>
+	</body>
+
+</html>

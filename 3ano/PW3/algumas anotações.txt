@@ -1,0 +1,9 @@
+------anotações fodas--------
+o blase renderiza a pagina html na hora e não um html que deve ser atualuzada toda vez que entrar
+
+
+----------diretorio app---------------
+aqui encontra o diretorio HTPP onde fica as classe de controller,contatocontroller, e Model
+
+-----------diretorio resorses------------
+resorce\views\pagina.blade.php

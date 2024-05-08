@@ -1,0 +1,46 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+         <title>Pitagoras</title>
+         <script language="Javascript">
+           function calcular(A,B,C)
+           {
+               var a=parseFloat(A.value);
+               var b=parseFloat(B.value);
+               var c=parseFloat(C.value);
+                
+               if(a==0 && b>0 && c>0){
+                   a=Math.sqrt((b*b)+(c*c));
+                   alert("O valor da hipotenusa é:"+a);
+               }
+               else{
+                   if(a>1 && b==0 && c<a){
+                   b=Math.sqrt((a*a)-(c*c));
+                   alert("O valor do cateto B é:"+b);
+                   }
+                   else{
+                      if(a>1 && b<a && c==0){
+                     c=Math.sqrt((a*a)-(b*b));
+                     alert("O valor do cateto C é:"+c);
+                       }
+                       else{
+                           document.write("Erro a conta não pode ser realizada, abaixo pode conter as seguintes causas:"+"<br>"+"1.Cateto com valor maior ou igual que a hipotenusa"+"<br>"+"2.Foram enviados 3 valores EX:A=8,B=5,C=4, isso não é premitido pois não será possível realizar nenhuma conta"+"<br>"+"3.Mais de um valor 0 foi enviado"+"<br>"+"4.Foi enviado um número negativo"+"<br>"+"5.Foi digitado uma letra"+"<br>"+"6.Deixou o formulário em branco");
+                       }
+                   }
+               }
+           }
+          </script>
+    </head>
+	
+	<body>
+	<center><h1>Teorema de Pitagoras</h1></center><br><br>
+	<form>
+<b>!!!Digite 0 para a incognita!!!</b><br><br>
+	  insira o valor da hipotenusa(A):<input type="text" name="A"><br>
+	  insira o valor do cateto(B):<input type="text" name="B"><br>
+	  Insira o valor do cateto(C):<input type="text" name="C"><br>
+	  <input type="submit" value="Calcular" onclick='calcular(A,B,C)'>
+	</form>
+	</body>
+
+</html>

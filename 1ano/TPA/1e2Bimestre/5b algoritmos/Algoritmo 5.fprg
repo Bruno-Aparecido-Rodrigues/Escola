@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-23 04:56:47 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtUMDEtMTI7MjAyMi0wMy0yMzsiMDQ6NDg6NTkgIjsyNjM2"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtUMDEtMTI7MjAyMi0wMy0yMzsiMDQ6NTY6NDcgIjsxOzI3NDA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, M" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite um valor para a vari&#225;vel A\n&quot;" newline="True"/>
+            <input variable="A"/>
+            <output expression="&quot;Digite um valor para a vari&#225;vel B\n&quot;" newline="True"/>
+            <input variable="B"/>
+            <assign variable="M" expression="(A+B)/2"/>
+            <output expression="&quot;A m&#233;dia dos valores &#233;: %f\n&quot;&amp; M" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

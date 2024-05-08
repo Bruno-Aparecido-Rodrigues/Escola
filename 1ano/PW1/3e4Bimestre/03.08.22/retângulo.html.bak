@@ -1,0 +1,36 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+         <title>Aula HTML</title>
+         <!--JavaScript-->
+         <script language="Javascript">
+           function calcular(base,alt)
+           {
+		   
+		   var n;
+            n=parseInt(base.value)*parseInt(alt.value);
+            alert("A área do retângulo é: "+n);
+           } 
+
+
+         </script>
+    </head>
+	
+	<body>
+
+        <br>
+        <center><h1>Área de um retângulo</h1></center>
+        <br><br>
+    
+        <!--Formulário-->
+        <form name="area">
+        Digite a base do retângulo <input type="text" name="base">
+    
+        Digite a altura do retângulo <input type="text" name="alt">
+        <br><br>
+    
+        <input type="submit" value="Calcular" onclick="calcular(base,alt)">
+        </form>
+	</body>
+
+</html>

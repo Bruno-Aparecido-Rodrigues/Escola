@@ -1,0 +1,37 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+         <title>exercicio2</title>
+         <script language="Javascript">
+		 
+		 //fatorização//
+		 ///////////////
+		 
+           function fatorar(fator)
+           {
+            var a=parseFloat(fator.value); 
+            var res=1;
+           for(var i=a-1; i>=1; i--)
+           {
+               a=a*(parseFloat(fator.value)-res);
+                res=res+1;
+              
+           }
+           document.write(a,"<br>");
+        } 
+
+          </script>
+    </head>
+	
+	<body>
+	<center><h1>Fatorização</h1></center>
+	
+	<!--formulario-->
+    <form>
+    Insira um numero a ser fatorado: <input type="text" name="fator">
+    <input type="submit" value="Fatorar" onclick='fatorar(fator)'>
+    </form>
+</body>
+
+
+</html>

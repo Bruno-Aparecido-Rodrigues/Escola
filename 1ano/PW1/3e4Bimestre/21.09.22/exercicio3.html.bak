@@ -1,0 +1,33 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+         <title>Sequência de Fibonacci</title>
+         <script language="Javascript">
+             
+			  //sequência//
+	     	 /////////////
+			 
+			 var a=0;
+		     var resu=0
+             var num=0
+             var num2=1
+
+            do 
+            {
+                resu=num+num2;
+                 num2=num;
+                 num=resu;
+               {
+                 document.write(resu,"<br>" );
+                 a=a+1;
+               }
+            }
+            while(a<=50)
+          </script>
+    </head>
+	
+	<body>
+	
+	</body>
+
+</html>

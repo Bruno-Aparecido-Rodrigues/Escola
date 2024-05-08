@@ -1,0 +1,15 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+         <title>Tabela</title>
+    </head>
+	
+	<body bgcolor="gray">
+	<h1>Tabela</h1>
+	    <table>
+		    <tr>linha1</tr>
+            <tr>linha2</tr>		
+		</table>
+	</body>
+
+</html>

@@ -1,0 +1,60 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+	    <title>Exercicio 4</title>
+        <script language="javascript">
+     //javascript//
+     function verificar(num1,num2)
+     {
+	   var n1=parseInt(num1.value);
+       var n2=parseInt(num2.value);
+       var ni1=parseInt(num1.value);
+       var ni2=parseInt(num2.value);
+	   
+	   //par ou impar// 
+	     if(n1%2)
+	      {
+            n1=parseInt(num1.value)+1;
+          }
+         else
+	      {
+            n1=parseInt(num1.value);
+          }
+       
+          if(n2%2)
+	       {
+             n2=parseInt(num2.value)+1;
+           }
+           else{
+             n2=parseInt(num2.value);
+            }
+		//ordem crescente//
+		if (ni1==ni2)
+		{
+		 alert("não existe números pares entre esses números");
+		}
+		else
+		{
+           for (n1>=0;n1<=parseInt(num2.value);n1=n1+2)
+	       {  
+              document.write(n1,"<br>");
+           }
+      
+              for (n2>=0;n2<=parseInt(num1.value);n2=n2+2)
+		      {  
+              document.write(n2,"<br>");
+              }
+        }
+     }
+</script>
+</head>
+<body>
+	  <center><h1>Todos os pares</h1></center>
+	  <!--formulario-->
+	<form name="numeros">
+        insira o primeiro número: <input type="text" name="num1">
+        insira o segundo número: <input type="text" name="num2"><br>
+        <input type="submit"  value="Verificar" onclick='verificar(num1,num2)'>
+    </form>
+	</body>
+</html>

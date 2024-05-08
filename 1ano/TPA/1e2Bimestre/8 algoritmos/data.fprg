@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="endri"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-11 01:13:01 "/>
+        <attribute name="created" value="ZW5kcmk7TEVOT1ZPOzIwMjItMDQtMzA7IjA4OjA1OjQ1ICI7MjE4Nw=="/>
+        <attribute name="edited" value="ZW5kcmk7TEVOT1ZPOzIwMjItMDQtMzA7IjA4OjI5OjM5ICI7MTsyMzA0"/>
+        <attribute name="edited" value="ZHRpO0xBQjEwNC0wOTsyMDIyLTA1LTExOyIwMToxMzowMSAiOzE7MjEwOQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="d1, m1, a1" type="Integer" array="False" size=""/>
+            <declare name="d2, m2, a2" type="Integer" array="False" size=""/>
+            <output expression="&quot;qual a dia&quot;" newline="True"/>
+            <input variable="d1"/>
+            <output expression="&quot;qual &#233; o mes&quot;" newline="True"/>
+            <input variable="m1"/>
+            <output expression="&quot;qual &#233; o ano&quot;" newline="True"/>
+            <input variable="a1"/>
+            <output expression="&quot;qual o segundo dia&quot;" newline="True"/>
+            <input variable="d2"/>
+            <output expression="&quot;qual &#233; o segundo mes&quot;" newline="True"/>
+            <input variable="m2"/>
+            <output expression="&quot;qual &#233; o segundo ano&quot;" newline="True"/>
+            <input variable="a2"/>
+            <if expression="a1&gt;a2">
+                <then>
+                    <output expression="&quot;a ordem &#233;&quot;  &amp;d1   &amp;m1  &amp;a1" newline="True"/>
+                    <output expression="&quot;e&quot;   &amp;d2  &amp;m2   &amp;a2" newline="True"/>
+                </then>
+                <else>
+                    <if expression="a1&lt;a2">
+                        <then>
+                            <output expression="&quot;a ordem &#233;&quot; &amp;d2 &amp;m2 &amp;a2" newline="True"/>
+                            <output expression="&quot;e&quot; &amp;d1 &amp;m1 &amp;a1" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="a1=a2">
+                                <then>
+                                    <if expression="m1&gt;m2">
+                                        <then>
+                                            <output expression="&quot;a ordem &#233;&quot;  &amp;d1   &amp;m1  &amp;a1" newline="True"/>
+                                            <output expression="&quot;e&quot;   &amp;d2  &amp;m2   &amp;a2" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="m1&lt;m2">
+                                                <then>
+                                                    <output expression="&quot;a ordem &#233;&quot;  &amp;d2   &amp;m2  &amp;a2" newline="True"/>
+                                                    <output expression="&quot;e&quot;   &amp;d1 &amp;m1  &amp;a1" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="d1&gt;d2">
+                                                        <then>
+                                                            <output expression="&quot;a ordem &#233;&quot;  &amp;d1   &amp;m1  &amp;a1" newline="True"/>
+                                                            <output expression="&quot;e&quot;   &amp;d2  &amp;m2   &amp;a2" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="d1&lt;d2">
+                                                                <then>
+                                                                    <output expression="&quot;a ordem &#233;&quot;  &amp;d2   &amp;m2  &amp;a2" newline="True"/>
+                                                                    <output expression="&quot;e&quot;   &amp;d1  &amp;m1  &amp;a1" newline="True"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

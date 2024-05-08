@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="dti"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-18 02:16:05 "/>
+        <attribute name="created" value="ZHRpO0xBQjEwNC0xMTsyMDIyLTA1LTE4OyIwMTo1MzoxNSAiOzIwMTA="/>
+        <attribute name="edited" value="ZHRpO0xBQjEwNC0xMTsyMDIyLTA1LTE4OyIwMjoxNjowNSAiOzI7MjExOA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="p, f, ps, i, s" type="Real" array="False" size=""/>
+            <assign variable="s" expression="1"/>
+            <assign variable="p" expression="500.00"/>
+            <assign variable="ps" expression="p*(1/100)"/>
+            <do expression="s&lt;4">
+                <assign variable="f" expression="p+(s*ps)"/>
+                <assign variable="s" expression="s+1"/>
+            </do>
+            <output expression="&quot;o seu saldo ap&#243;s de 3 meses ser&#225;:&quot;&amp;f" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

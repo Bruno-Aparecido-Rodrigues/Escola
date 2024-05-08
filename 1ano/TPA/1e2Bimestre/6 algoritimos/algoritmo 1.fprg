@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="dti"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-06 03:28:17 "/>
+        <attribute name="created" value="ZHRpO0xBQjEwNC0wNDsyMDIyLTA0LTA2OyIwMzoyMTozNyAiOzIwMDk="/>
+        <attribute name="edited" value="ZHRpO0xBQjEwNC0wNDsyMDIyLTA0LTA2OyIwMzoyODoxNyAiOzI7MjEyMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Alt, peso, Homem, Mulher" type="Real" array="False" size=""/>
+            <declare name="ge" type="String" array="False" size=""/>
+            <output expression="&quot;Qual sua altura?&quot;" newline="True"/>
+            <input variable="Alt"/>
+            <output expression="&quot;Informe se seu g&#234;nero &#233; masculino ou feminino&quot;" newline="True"/>
+            <input variable="ge"/>
+            <if expression="ge=&quot;masculino&quot;">
+                <then>
+                    <assign variable="Homem" expression="(72.7*Alt)-58"/>
+                    <output expression="&quot;O peso ideal para um homem com a sua altura &#233;&quot;&amp; Homem" newline="True"/>
+                </then>
+                <else>
+                    <assign variable="Mulher" expression="(62.1*Alt)-44.7"/>
+                    <output expression="&quot;O peso ideal para uma mulher com a sua altura &#233;&quot;&amp; Mulher" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

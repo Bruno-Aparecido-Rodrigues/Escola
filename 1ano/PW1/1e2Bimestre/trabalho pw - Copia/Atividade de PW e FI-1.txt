@@ -1,0 +1,212 @@
+Questionário Estrutura de Computador
+
+
+1.	Identifique e explique todos os conectores externos frontal e traseiro do computador.
+
+Entrada e saída de áudio 
+portas USB
+(é utilizado para a conexão de vários dispositivos sendo
+1.0 com 1,5 Mb/s
+2.0 com 480Mb/s
+3.0 com 4.8Gb/s.)
+VGA ( Para saída de vídeo, conexão para tv ou monitores)
+PS2 (Utilizada para a conexão de teclados e mouses antigos)
+P2 (Utilizado para a conexão de fones)
+P3 (Para microfone com ou sem fone)
+MIDI port (facilita a comunicação em tempo real entre instrumentos musicais eletrônicos, computadores e dispositivos relacionados)
+LAN (conexão do cabo de rede)
+Paralelo port (utilizada antigamente para impressoras)
+Serial comunications (Servia para a utilização de outros dispositivos, porém foi substituído pelo usb)
+Line in (serve para conectar um dispositivo de áudio externo)
+
+
+2.Defina “placa mãe”.
+R: A Placa mãe é o circuito "coração" do computador, pois ela que permite o tráfico da informação de diversos componentes,nela que fica a maioria dos componentes e onde
+todos são conectados,alimenta  os componentes com energia que recebe da fonte
+
+3.	Diferencie placas mãe on-board e off-board.
+R:Placa mãe on board é aquela que possui os outros dispositivos integrados do computador na placa. 
+Já a Off-board nenhum desses dispostivios já vem acoplado, onde é necessário a comprar dos outros dispositivos em separado
+
+4.O que é processador?
+
+R:É o cerébro do computador já que ele organiza as informações,e resolve calculos aritmeticos que é requerido pelo usuário. 
+
+5.Elabore uma tabela comparativa entre os processadores Intel e AMD, a partir do Dual Core.
+
+
+
+
+
+
+
+6.Defina os diversos tipos de memória:
+a.	RAM   Memória de acesso randômico ou Memória de acesso aleatório é um tipo de memória que permite a leitura e a escrita, utilizada como memória primária em sistemas eletrônicos digitais
+i.	DDR   Double Data Rate Synchronous Dynamic Random Access Memory é uma classe de memória de acesso aleatório dinâmico síncrono de taxa de dados dupla de circuitos integrados de memória usados em computadores. 
+ii.	DDR2  Double Data Rate 2 Synchronous Dynamic Random-Access Memory é uma interface de memória de acesso aleatório dinâmico síncrono de taxa de dados dupla. Ele substituiu a especificação DDR SDRAM original e foi substituído pelo DDR3 SDRAM. DDR2 DIMMs não são nem para a frente compatível com DDR3 e nem compatível com DDR. 
+iii.	DDR3  Double Data Rate 3 Synchronous Dynamic Random-Access Memory é um tipo de memória de acesso aleatório dinâmica síncrona com uma interface de alta largura de banda e está em uso desde 2007. É o sucessor de alta velocidade para DDR e DDR2 e predecessor para chips de memória dinâmica de acesso aleatório síncrono DDR4
+iv.	DDR4  Double Data Rate 4 Synchronous Dynamic Random-Access Memory é um tipo de memória de acesso aleatório dinâmica síncrona com uma interface de alta largura de banda
+v.	DDR5  DDR5 SDRAM é a abreviação oficial de Double Data Rate 5 Synchronous Dynamic Random-Access Memory. Em comparação com seu predecessor DDR4 SDRAM, o DDR5 foi planejado para reduzir o consumo de energia, ao mesmo tempo em que dobra a largura de banda
+vi.	Associe com qual processador /placa é utilizada:
+b.	ROM - é utilizada na placa mãe pois lá fica guardada informações e configurações, que não podem ser alteradas.
+c.	PROM - Consoles de Videogames
+d.	EPROM - microprocessadores
+e.	EEPROM - microprocessadores
+7.	Comente sobre SETUP.
+
+Bastante comum no mundo da computação, o setup é uma configuração que permite que o utilizador faça alterações em determinados programas, para que eles funcionem de forma mais adequada às suas necessidades. Programas como o Google Chrome, ou mesmo sistemas operacionais como o Windows 8 possuem diversas opções de setup.
+
+8.	Comente sobre CMOS.
+R:Complementary metal–oxide–semiconductor, mais conhecido pelo seu nome comercial CMOS, é um pequena memória RAM que armazena informações de configuração de hardware  onde é guardada a sequência de boot por exemplo.
+
+9.	Defina Barramento e seus 3 tipos.
+r:Barramento é um conjunto de linhas de comunicação que permitem a interligação entre dispositivos, como a CPU, a memória e outros periféricos. São as linhas de transmissão que transmitem as informações entre o processador, memória e demais periféricos do computador.
+E seus tipos são Barramento local (Cpu e chiset)
+Barramento da memória (Memória RAM)
+Barramento PCI (Dispostivios atuais)
+
+10.	Comente sobre BIOS.
+
+R:A BIOS é firmware/hardware, pois é gravado em uma memória não volátil, 
+usado para realizar a inicialização do hardware durante o processo de inicialização e 
+para fornecer serviços de tempo de execução para sistemas operacionais e programas.
+
+11.	Qual a função da bateria de Litium?
+
+R:Bateria íon-lítio serve para alimentar o CMOS e o relógio de tempo real.
+
+12.	Quais os tipos de conectores para unidade de armazenamento interna?
+R: São eles Pata e Sata.
+
+13.	O que é slot de expansão? Dê seus tipos e comente cada um brevemente.
+
+Os slots de expansão servem para que seja possível adicionar recursos à sua placa-mãe. Neles você conecta placas de rede, placa de som, modems, placa de captura
+PCI (Serve para Dispositivos atuais)
+AGP (Para placas de vídeo antigas)
+AMR (Modem on Board)
+CNR (Para o Modem on Board também)
+ISA (Serve para dispositivos antigos)
+EISA (Era utilizado para Placas de vídeos potentes)
+VESA (Foi o sucessor do EISA)
+PCIe (serve para diversos periféricos para computador)
+
+14.	O processador é colocado em um conector específico chamado SOCKET. Comente sobre sua função, modelos e processador que pode conectar.
+R: O Socket de forma resumida é o local em que o processador será inserido, na placa mãe. onde seus tipos são LGA, PGA e BGA onde a diferença entre eles é a entrada dos pinos.
+O Processador a ser encaixado depende da marca (AMD OU INTEL) e do modelo do socket, pois mesmo sendo da mesma marca existem diversos modelos
+de socket.
+
+15.	Qual a estrutura interna do processador, ou seja, seus componentes? Explique cada um deles.
+
+R: A estrutura dele é definida nesses componentes 
+Unidade lógica e aritmética: Que tem o objetivo de controlar as ações feitas pelo Pc, ele basicamente controla as ações no exterior da CPU.
+Unidade de controle:Função de ativar instruções de programas, como matemática, sendo essa unidade que realiza operações de adição, é conhecida como uma grande calculadora eletrônica.
+Registradores:   basicamente armazenam comandos e valores, como o endereço de uma próxima execução,  ou armazenar algum endereço da pilha de execução de algum programa.
+Unidade de Gerenciamento de Memória: traduz endereços virtuais em endereços físicos
+Unidade de ponto flutuante: é o hardware dedicado a executar operações matemáticas de dados representados em ponto flutuante em um computador
+
+16.Na placa mãe temos alguns eletrônicos, sendo:
+a.	MOSFET 
+R: é uma classe de transistors que é utilizado para amplificar sinal enviado pela unidade principal para alimentar
+os altos-falantes de equipamentos eletrônicos.
+Versões: Lateral Mosfet, Mosfet de Dupla difusão, Mosfet Vertical, Mosfet T
+
+
+b.	Transistores
+R: Ele é usado para amplificar ou trocar sinais eletrônicos e potência elétrica.
+Versões:TBJ – Transistor Bipolar de Junção, FET – Transistor de Efeito de Campo, que é subdividido em MOSFET, JFET, MESFET, entre outros
+IGBT – Transistor Bipolar de Gate Isolado
+
+i.	Quantos tem dentro de um processador? Milhões e isso em até nos
+processadores antigos como o core 2 duo que tinha 291 Milhões.
+
+
+
+c.	Capacitores 
+r:A função mais básica do capacitor é a de armazenar cargas elétricas em seu interior. Durante as descargas, os capacitores podem fornecer grandes quantidades de carga elétrica para um circuito.
+
+Versões:Capacitores eletrolíticos, poliéster, tântalo, óle, variáveis e cerâmicos.
+
+
+
+
+d.	Resistores (fixos e variáveis)
+r:A função deles é converter energia elétrica em energia térmica.
+Versões: Fixos e Variáveis.
+
+
+Comente cada um deles e suas variações.
+
+
+
+17.Placas mãe mais antigas possuíam 2 Chipset (ponte norte e ponte sul). Defina e dê suas funções.
+R: Ponte Norte é responsável por controlar os componentes rápidos, como a CPU,GPU e RAM fazendo que eles solicitem infomações do HD.
+Já o Ponte Sul fica encarregado dos componentes "lentos" que são os HDS,USBS,Paralela e PS2.
+
+
+18.Para a placa mãe funcionar é necessário o fornecimento de energia. Comente sobre todos os tipos destes conectores e suas devidas voltagens.
+24PINOS 20w-80w
+SATA/PATA 25w-35w
+ATX12V  30w-80w
+EPS12V 60w-110w
+ 
+
+
+
+19.Qual a função do Cooler e Dissipador de Calor?
+R: Em resumo eles atuam juntos em vários aparelhos eletrônico para diminuir a temperatura de um componente. Uma explicação breve sobre eles
+Dissipador: Impede que o ar quente fique parado num determinado componente
+Cooler: Consegue Resfriar e remover o ar quente do gabinete, basicamente um ventilador.
+
+
+20.Por que devemos colocar pasta térmica entre o processador e dissipador?
+R: Devemos colocar para ajudar na condução termica entre o processador e o dissipador, ajudando ainda mais na diminuição da temperatura.
+
+21.Quais os diversos tipos de placa mãe?
+
+AT.
+
+ATX.
+
+BABY AT.
+
+BTX.
+
+ITX.
+
+LPX.
+
+NLX.
+
+
+22.	Quais os tipos de conectores de:
+a.	Áudio
+P1
+P2
+P3
+P10
+
+
+b.	Vídeo
+VGA e SVGA
+HDMI
+DISPLAY PORT
+DVI
+S-VIDEO
+Component Video (3 pinos)
+
+c.	Rede
+BNC
+RJ-45
+
+d.	Antena WiFi e Bluethooth
+USB 1.0
+UBS 2.0
+USB 3.0
+
+
+
+23.	Quais os diversos tipos de armazenamento de dados que • v• o• c• ê•  • c• onhece? Explique-os.
+HDD/SSD - é a memória secundária do computador, de forma resumida é o lugar onde tudo é salvo. Esses dispostivos podem ser divididos em HDs e SSD.
+Onde o SSD é o mais rápido.
+RAM - é a principál memória do computador, onde fica armazenado temporariamente os dados. Essa memória permite o uso de várias ações no computador 
+como jogar ou mexer no navegador.

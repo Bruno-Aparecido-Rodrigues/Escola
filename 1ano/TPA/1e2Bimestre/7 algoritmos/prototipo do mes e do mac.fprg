@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="dti"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-05 08:22:27 "/>
+        <attribute name="created" value="ZHRpO0xBQjEwNC0wMzsyMDIyLTA0LTI3OyIwMToxNjoxMiAiOzIwMDY="/>
+        <attribute name="edited" value="ZHRpO0xBQjEwNC0wMzsyMDIyLTA0LTI3OyIwMzoyMjo0OSAiOzE7MjEyMw=="/>
+        <attribute name="edited" value="U2Ftc3VuZztOT1RFQk9PSzsyMDIyLTA1LTA1OyIwODoyMjoyNyAiOzE7MjY0Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <output expression="&quot;Escolha um n&#250;mero referente a diciplina&quot;" newline="True"/>
+            <output expression="&quot;1. TPA&quot;" newline="True"/>
+            <output expression="&quot;2. PW1&quot;" newline="True"/>
+            <output expression="&quot;3. Fundamentos&quot;" newline="True"/>
+            <output expression="&quot;4 Ingl&#234;s&quot;" newline="True"/>
+            <output expression="&quot;5. Design Digital&quot;" newline="True"/>
+            <input variable="num"/>
+            <if expression="num=1">
+                <then>
+                    <output expression="&quot;A disciplina escolhida foi: TPA&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="num=2">
+                        <then>
+                            <output expression="&quot;A disciplina escolhida foi: PW1&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="num=3">
+                                <then>
+                                    <output expression="&quot;A disciplina escolhida foi: Fundamentos&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="num=4">
+                                        <then>
+                                            <output expression="&quot;A disciplina escolhida foi: Ingl&#234;s&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="num=5">
+                                                <then>
+                                                    <output expression="&quot;A disciplina escolhida foi: Design Digital&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <output expression="&quot;Disciplina Invalida!&quot;" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

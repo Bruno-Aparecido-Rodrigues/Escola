@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-08 03:05:38 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMTI7MjAyMi0wNi0wODsiMDM6MDE6MDQgIjsyNzk0"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMTI7MjAyMi0wNi0wODsiMDM6MDU6MzggIjsxOzI5MTM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <declare name="Resp, Nome" type="String" array="False" size=""/>
+            <output expression="&quot;deseja continuar: Sim ou N&#227;o&quot;" newline="True"/>
+            <input variable="Resp"/>
+            <while expression="Resp=&quot;Sim&quot;">
+                <output expression="&quot;Informe o nome&quot;" newline="True"/>
+                <input variable="Nome"/>
+                <output expression="&quot;Informe a idade&quot;" newline="True"/>
+                <input variable="idade"/>
+                <output expression="Nome &amp; &quot; tem &quot; &amp; idade &amp; &quot; anos&quot;" newline="True"/>
+                <output expression="&quot;Deseja continuar?&quot;" newline="True"/>
+                <input variable="Resp"/>
+            </while>
+        </body>
+    </function>
+</flowgorithm>

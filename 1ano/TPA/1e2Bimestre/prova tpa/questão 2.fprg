@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-01 01:17:50 "/>
+        <attribute name="created" value="QWx1bm87TEFCLTA4LTA0OzIwMjItMDYtMDE7IjAxOjA1OjQyICI7MjE5Mg=="/>
+        <attribute name="edited" value="QWx1bm87TEFCLTA4LTA0OzIwMjItMDYtMDE7IjAxOjE3OjUwICI7MTsyMzAy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="dinheiroreal, convercao" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o dinheiro em reais a ser convertido&quot;" newline="True"/>
+            <input variable="dinheiroreal"/>
+            <assign variable="convercao" expression="dinheiroreal/1.80"/>
+            <output expression="&quot;Voc&#234; tem &quot; &amp; convercao &amp; &quot; d&#243;lares ap&#243;s a conver&#231;&#227;o.&quot;" newline="True"/>
+            <assign variable="convercao" expression="dinheiroreal/2"/>
+            <output expression="&quot;Voc&#234; tem &quot; &amp; convercao &amp; &quot; marcos alem&#227;o ap&#243;s a conver&#231;&#227;o.&quot;" newline="True"/>
+            <assign variable="convercao" expression="dinheiroreal/1.57"/>
+            <output expression="&quot;Voc&#234; tem &quot; &amp; convercao &amp; &quot; libras esterlinas ap&#243;s a conver&#231;&#227;o.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

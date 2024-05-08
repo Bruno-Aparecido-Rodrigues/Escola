@@ -1,0 +1,19 @@
+@charset "utf-8";
+		
+		p.menu a{
+color: black;
+background: #7B68EE;
+font: 25px Verdana;
+text-decoration: none;
+text-align:center;
+paddig: 1px 5px:
+margin-right: 7px;
+indent-text: 5em;
+}
+
+p.menu a hover{
+background: #32CD32;}
+
+#href {
+	indent-text: 5em;
+}

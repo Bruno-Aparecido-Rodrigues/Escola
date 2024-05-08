@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="dti"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-11 04:54:49 "/>
+        <attribute name="created" value="ZHRpO0xBQjIwMy0wNzsyMDIyLTA1LTExOyIwNDo0ODowMCAiOzIwMDk="/>
+        <attribute name="edited" value="ZHRpO0xBQjIwMy0wNzsyMDIyLTA1LTExOyIwNDo1NDo0OSAiOzE7MjEyNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <output expression="&quot;Insira sua idade&quot;" newline="True"/>
+            <input variable="idade"/>
+            <if expression="idade&gt;=18">
+                <then>
+                    <output expression="&quot;Voc&#234; &#233; classificado como s&#234;nior&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="idade&lt;=17">
+                        <then>
+                            <output expression="&quot;Voc&#234; &#233; classificado como Juvenil B&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="idade&lt;=13">
+                                <then>
+                                    <output expression="&quot;Voc&#234; &#233; classificado como Juvenil A&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="idade&lt;=10">
+                                        <then>
+                                            <output expression="&quot;Voc&#234; &#233; classificado como Infantil B&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="idade&lt;=7">
+                                                <then>
+                                                    <output expression="&quot;Voc&#234; &#233; classificado como Infantil A&quot;" newline="True"/>
+                                                </then>
+                                                <else/>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

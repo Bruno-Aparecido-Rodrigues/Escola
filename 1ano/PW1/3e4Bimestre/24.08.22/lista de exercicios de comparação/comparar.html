@@ -1,0 +1,41 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+         <title>Aula HTML</title>
+         <script language="Javascript">
+         function comparar(num1,num2)
+         {
+             if (parseInt(num1.value)<parseInt(num2.value))
+             {
+                 alert("O valor "+parseInt(num2.value)+" é maior que o valor "+parseInt(num1.value)); 
+             }
+                else
+                {
+                    if(parseInt(num1.value)>parseInt(num2.value))
+                    {
+                        alert("O valor "+parseInt(num1.value)+" é maior que o valor "+parseInt(num2.value)); 
+                    }
+                    else
+                    {
+                        alert("O valor "+parseInt(num1.value)+" e o valor "+parseInt(num2.value)+" são os mesmos.");
+                    }
+                }
+         }  
+          </script>
+    </head>
+	
+	<body>
+	<center><h1>Comparação</h1></center>
+    <br><br>
+
+    <!--formulario-->
+    <form>
+        Informe o primeiro valor: <input type="text" name="num1">
+        <br><br>
+        Inofrme o segundo valor: <input type="text" name="num2">
+        <br><br>
+        <input type="submit" value="Comparar" onclick='comparar(num1,num2)'> 
+    </form>
+	</body>
+
+</html>

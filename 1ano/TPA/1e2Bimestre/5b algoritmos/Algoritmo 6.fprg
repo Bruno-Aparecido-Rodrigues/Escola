@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-23 05:02:57 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtUMDEtMTI7MjAyMi0wMy0yMzsiMDQ6NTc6MjIgIjsyNjI2"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtUMDEtMTI7MjAyMi0wMy0yMzsiMDU6MDI6NTcgIjsxOzI3MzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="peso, alt, imc" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite seu peso\n&quot;" newline="True"/>
+            <input variable="peso"/>
+            <output expression="&quot;Digite sua altura\n&quot;" newline="True"/>
+            <input variable="alt"/>
+            <assign variable="imc" expression="peso/(alt*alt)"/>
+            <output expression="&quot;Seu imc &#233; igual a %2.2f\n&quot;&amp; imc" newline="True"/>
+            <output expression="&quot;tecle enter para sair do DOS\n&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

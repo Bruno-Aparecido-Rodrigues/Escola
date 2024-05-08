@@ -1,0 +1,67 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+         <title>Aula HTML</title>
+         <script language="Javascript">
+           function analisar(valor)
+           {
+              if (parseInt(valor.value)==1)
+              {
+               alert ("Seu departamento é o de Expedição");
+              }
+              else
+              {
+                if (parseInt(valor.value)==2)
+                {
+                    alert ("Seu departamento é o de Recursos Humanos");  
+                }
+                else
+                {
+                    if (parseInt(valor.value)==3)
+                    {
+                        alert ("Seu departamento é o de Logística");
+                    }
+                    else
+                    {
+                        if (parseInt(valor.value)==4)
+                        {
+                            alert ('Seu departamento é o de contabilidade');
+                        }
+                        else
+                        {
+                            if (parseInt(valor.value)==5)
+                            {
+                                alert ("Seu departamento é o Departamento pessoal");
+                            }
+                            else
+                            {
+                                if (parseInt(valor.value)==6)
+                                {
+                                    alert ("Seu departamento é o de Informática");
+                                }
+                                else
+                                {
+                                    alert ("Não foi possivel indentificar o seu departamento verifique se digitou corretamente");
+                                }
+                            }
+                        }
+                    }
+                }
+              }
+           }  
+          </script>
+    </head>
+	
+	<body>
+	<center><h1>Departamento</h1></center>
+    <!--Formulario-->
+    
+    <form>
+        Insira o código para saber seu departamento: <input type="text" name="valor">
+        <br><br>
+        <input type="submit" value="Analisar" onclick='analisar(valor)'>
+    </form>
+
+	</body>
+
+</html>

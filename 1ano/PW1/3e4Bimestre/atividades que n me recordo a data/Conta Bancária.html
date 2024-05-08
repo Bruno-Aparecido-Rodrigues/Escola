@@ -1,0 +1,51 @@
+<html> 
+<head>
+<meta charset="utf-8">
+<title>Conta Bancária</title>
+
+<!--JavaScript-->
+<script language="javascript">
+function Calcular(Dp,Ju) 
+{
+  S1 = parseFloat(Dp.value)+ ((parseFloat(Dp.value)/100)* parseFloat(Ju.value));
+  S2 = S1  + ((S1/100)*parseFloat(Ju.value));
+  S3 = S2 + ((S2/100)*parseFloat(Ju.value));
+  alert("O Valor na conta será de R$" +S3 +" após três meses");
+
+
+}
+
+
+</script>
+
+
+</head>
+<body>
+
+<center><h1>Calcular de Juros</h1></center>
+
+<form>
+Digite o Deposito Inicial: <input type="text" size="20" name="Dp"> <!--Depósito--> <br>
+Juros ao Mês: <input type="text" size="20" name="Ju"> <!--Juros--> <br>
+
+<input type="submit" size="20" value="Calcular" onclick="Calcular(Dp,Ju)">
+
+</form>
+
+
+
+
+</body>       
+
+
+
+
+
+
+
+
+
+
+
+
+</html>

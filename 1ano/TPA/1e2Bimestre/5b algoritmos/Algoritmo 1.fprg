@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-23 03:09:10 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtNRVRPRE9MT0dJQS0wNDsyMDIyLTAzLTIzOyIwMzowMzoyNCAiOzMyNTg="/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtNRVRPRE9MT0dJQS0wNDsyMDIyLTAzLTIzOyIwMzowOToxMCAiOzM7MzM2OQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Pe, a" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o Valor do lado&quot;" newline="True"/>
+            <input variable="a"/>
+            <assign variable="Pe" expression="4*a"/>
+            <output expression="&quot;O per&#237;metro &#233;:&quot;&amp; Pe" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

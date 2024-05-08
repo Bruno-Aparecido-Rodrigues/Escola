@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="dti"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-18 06:00:18 "/>
+        <attribute name="created" value="ZHRpO0xBQjEwNC0xMTsyMDIyLTA1LTE4OyIwMjoyOTowMSAiOzIwMDk="/>
+        <attribute name="edited" value="ZHRpO0xBQjEwNC0xMTsyMDIyLTA1LTE4OyIwMjoyOTowMyAiOzE7ZHRpO0xBQjEwNC0xMTsyMDIyLTA1LTE4OyIwMjoxNjo0MSAiO2V4ZXJjaWNpbyAyLmZwcmc7NTc2MA=="/>
+        <attribute name="edited" value="ZHRpO0xBQjEwNC0xMTsyMDIyLTA1LTE4OyIwMzoyMzo1NyAiOzY7MjEyOA=="/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtUMDEtMTI7MjAyMi0wNS0xODsiMDY6MDA6MTggIjsyOzI3MzY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n1, n2, n3, n4, med, i" type="Real" array="False" size=""/>
+            <assign variable="i" expression="1"/>
+            <do expression="i&lt;8">
+                <output expression="&quot;Digite o valor da primeira nota&quot;" newline="True"/>
+                <input variable="n1"/>
+                <output expression="&quot;Digite o valor da segunda nota&quot;" newline="True"/>
+                <input variable="n2"/>
+                <output expression="&quot;Digite o valor da terceira nota&quot;" newline="True"/>
+                <input variable="n3"/>
+                <output expression="&quot;Digite o valor da quarta nota&quot;" newline="True"/>
+                <input variable="n4"/>
+                <assign variable="med" expression="(n1+n2+n3+n4)/4"/>
+                <output expression="&quot;A m&#233;dia do &quot;&amp;i&amp;&quot;&#176; aluno &#233;:&quot;&amp;med" newline="True"/>
+                <assign variable="i" expression="i+1"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

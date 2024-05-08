@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="dti"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-04 03:20:16 "/>
+        <attribute name="created" value="ZHRpO0xBQjEwNC0wMjsyMDIyLTA1LTA0OyIwMzoxMjoxMiAiOzE5OTk="/>
+        <attribute name="edited" value="ZHRpO0xBQjEwNC0wMjsyMDIyLTA1LTA0OyIwMzoyMDoxNiAiOzE7MjExMA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="alt, peso, IMC" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite sua altura em metros&quot;" newline="True"/>
+            <input variable="alt"/>
+            <output expression="&quot;Digite seu peso em quilos&quot;" newline="True"/>
+            <input variable="peso"/>
+            <assign variable="IMC" expression="peso/(alt*2)"/>
+            <output expression="&quot;Seu IMC &#233;:&quot;&amp; IMC" newline="True"/>
+            <if expression="IMC&lt;18">
+                <then>
+                    <output expression="&quot;Voc&#234; est&#225; magro&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="IMC&lt;=24.9">
+                        <then>
+                            <output expression="&quot;Voc&#234; est&#225; saud&#225;vel&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="IMC&lt;=29.9">
+                                <then>
+                                    <output expression="&quot;Voc&#234; est&#225; com sobrepeso&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="IMC&gt;=30">
+                                        <then>
+                                            <output expression="&quot;Voc&#234; est&#225; obeso&quot;" newline="True"/>
+                                        </then>
+                                        <else/>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="dti"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-18 03:23:42 "/>
+        <attribute name="created" value="ZHRpO0xBQjEwNC0xMTsyMDIyLTA1LTE4OyIwMjoxNjo0MSAiOzIwMDk="/>
+        <attribute name="edited" value="ZHRpO0xBQjEwNC0xMTsyMDIyLTA1LTE4OyIwMzoyMzo0MiAiOzEzOzIxNjg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="base, alt, are, i" type="Real" array="False" size=""/>
+            <assign variable="i" expression="1"/>
+            <do expression="i&lt;11">
+                <output expression="&quot;Digite o valor da base do &quot; &amp; i &amp; &quot;&#176; ret&#226;ngulo&quot;" newline="True"/>
+                <input variable="base"/>
+                <output expression="&quot;Digite o valor da altura do &quot; &amp; i &amp; &quot;&#176; ret&#226;ngulo&quot;" newline="True"/>
+                <input variable="alt"/>
+                <assign variable="are" expression="base*alt"/>
+                <output expression="&quot;A &#225;rea do &quot; &amp; i &amp; &quot;&#176; ret&#226;ngulo &#233;:&quot; &amp; are" newline="True"/>
+                <assign variable="i" expression="i+1"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

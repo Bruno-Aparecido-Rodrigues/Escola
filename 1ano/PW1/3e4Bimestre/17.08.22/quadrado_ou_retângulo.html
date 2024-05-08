@@ -1,0 +1,39 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+         <title>Aula HTML</title>
+
+         <!--Javascript-->
+         <script language="Javascript">
+         function comparar(altura,base)
+         {
+             if(parseInt(altura.value)== parseInt(base.value))
+             {
+                 alert("A forma é um quadrado");
+             }
+             else
+             {
+                 alert("A forma é um retângulo");
+             }
+         } 
+          </script>
+    </head>
+	
+	<body>
+	<br>
+       <center>Retângulo ou Quadrado</center>
+    <br><br>
+
+    <!--formulário-->
+    <form name="retanguloquadrado">
+    Insira a altura da forma:<input type="text" name="altura">
+    <br><br>
+    Insira a base da forma:<input type="text" name="base">
+    <br><br>
+    <input type="submit" value="Comparar" onclick='comparar(altura,base)'>
+
+
+    </form>   
+	</body>
+
+</html>

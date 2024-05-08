@@ -1,0 +1,66 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+         <title>Aula HTML</title>
+         <script language="Javascript">
+           function  validform()
+           {
+             dados = document.cadastro;
+
+            //valida nome
+            if(dados.nomecompleto.value=="")
+            {
+                alert ("O campo nome deve ser preenchido!");
+                dados.nomecompleto.focus();
+                return false;
+            }
+           else
+              if (dados.nomecompleto.value.lenght<9)
+              {
+                  alert ("O campo "+ dados.nomecompleto.name + " deve conter o nome completo, incluíndo o sobrenome!");
+                  dados.nomecompleto.focus();
+                  return false;
+              }
+            
+            //valida assunto
+             if(dados.assunto.value=="")
+             {alert ("O campo "+ dados.assunto.name+ " deve ser preenchido!");
+             dados.assunto.focus();
+             return false;
+            }
+            //valida email
+             if(dados.email.value=="" || dados.email.value.indexOf("@")==-1 || dados.email.value.indexOf(".")==-1)
+             {
+                alert ("o campo "+ dados.email.name+" deve ser preenchido corretamente!");
+                dados.email.focus();
+                return false; 
+             }
+           }
+          </script>
+    </head>
+	
+	<body>
+    <h1>Fale conosco</h1>
+
+    <form name="cadastro" onsubmit= "return validform()" method="post">
+
+        <label for="nomecompleto" title="Informe o nome completo">
+            Nome<font color="red">*</font><font color="black">:</font>
+        </label>
+        <input type="text" name="nomecompleto" maxlength="50" size="50"><br><br>
+
+        <label for="assunto" title="Informe o assunto">
+            Assunto<font color="red">*</font><font color="black">:</font>
+        </label>
+        <input type="text" name="assunto" maxlength="30" size="30"><br><br>
+
+        <label for="email" title="Informe o email">
+            E-mail<font color="red">*</font><font color="black">:</font>
+        </label>
+        <input type="text" name="email"><br><br>
+
+        <input type="submit" name="Envia" value="Enviar">
+        <input type="reset" name="Limpar">
+	</body>
+
+</html>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-03-23 05:07:58 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtUMDEtMTI7MjAyMi0wMy0yMzsiMDU6MDM6MDIgIjsyNjE2"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtUMDEtMTI7MjAyMi0wMy0yMzsiMDU6MDc6NTggIjsxOzI3Mzk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Cel, Kel" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a temperatura em celsius\n&quot;" newline="True"/>
+            <input variable="Cel"/>
+            <assign variable="Kel" expression="Cel+273.15"/>
+            <output expression="&quot;O valor em Kelvin &#233;: %2.2f\n  &quot;&amp; Kel" newline="True"/>
+            <output expression="&quot;Tecle ENTER ou ESC para sair do DOS\n&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

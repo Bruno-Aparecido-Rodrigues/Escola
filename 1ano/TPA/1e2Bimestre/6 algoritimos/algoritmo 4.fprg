@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="dti"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-06 03:16:37 "/>
+        <attribute name="created" value="ZHRpO0xBQjEwNC0wNDsyMDIyLTA0LTA2OyIwMzoxMzoxMyAiOzIwMDQ="/>
+        <attribute name="edited" value="ZHRpO0xBQjEwNC0wNDsyMDIyLTA0LTA2OyIwMzoxNjozNyAiOzE7MjEyMQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="anona, idade" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite seu ano de nascimento&quot;" newline="True"/>
+            <input variable="anona"/>
+            <assign variable="idade" expression="2022-anona"/>
+            <if expression="idade&gt;=18">
+                <then>
+                    <output expression="&quot;Voc&#234; atingiu a maioridade&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Vo&#234; ainda n&#227;o atingiu a maoiridade&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

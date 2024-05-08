@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Aluno"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-01 01:04:28 "/>
+        <attribute name="created" value="QWx1bm87TEFCLTA4LTA0OzIwMjItMDYtMDE7IjEyOjU3OjA2ICI7MjIwMQ=="/>
+        <attribute name="edited" value="QWx1bm87TEFCLTA4LTA0OzIwMjItMDYtMDE7IjAxOjA0OjI4ICI7MTsyMzAz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="apple" type="Integer" array="False" size=""/>
+            <declare name="precofinal" type="Real" array="False" size=""/>
+            <output expression="&quot;Quantas ma&#231;&#227;s voc&#234; comprou?&quot;" newline="True"/>
+            <input variable="apple"/>
+            <assign variable="precofinal" expression="apple*0.30"/>
+            <output expression="&quot;A sua compra de &quot; &amp; apple &amp; &quot; ma&#231;&#227;s deu R$:&quot; &amp; precofinal" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

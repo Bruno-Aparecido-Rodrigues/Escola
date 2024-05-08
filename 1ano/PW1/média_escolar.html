@@ -1,0 +1,49 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+         <title>Média Escolar</title>
+		 
+		 <!--Javascript-->
+         <script language="Javascript">
+            function avaliar(n1,n2,n3,n4)
+			   {
+			   
+			    medi=(parseFloat(n1.value)+parseFloat(n2.value)+parseFloat(n3.value)+parseFloat(n4.value))/4;
+			   
+			       if (medi <=5) {
+				   alert("Sua média foi de" + medi + "Você foi reprovado");
+         		
+				      }	
+			       else {
+				           if (medi < 7) {
+                              alert("Sua média foi de" + medi + "Você está de recuperação");					 
+					        }
+					       else {
+						      alert("Sua média foi de" + medi + "Você foi aprovado!");
+						    }
+			            }
+			   }
+		   
+          </script>
+    </head>
+	
+	<body>
+	<br>
+	    <center>Média escolar</center>
+		
+		<!--Formulário-->
+		<form name="media">
+		    <br><br>
+		    Insira sua primeira nota:<input type="text" name="n1">
+	        <br><br>
+	        Insira sua segunda nota:<input type="text" name="n2">
+	        <br><br>
+		    Insira sua terceira nota:<input type="text" name="n3">
+	    	<br><br>
+            Insira sua quata nota:<input type="text" name="n4">		
+            <br><br>
+            <input type="submit" value="Avaliar" onclick='avaliar(n1,n2,n3,n4)'>		
+		</form>
+	</body>
+
+</html>

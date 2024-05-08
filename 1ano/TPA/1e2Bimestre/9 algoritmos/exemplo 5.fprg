@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-08 03:10:21 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMTI7MjAyMi0wNi0wODsiMDM6MDU6NTggIjsyODA3"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMTI7MjAyMi0wNi0wODsiMDM6MTA6MjEgIjsxOzI5MDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <declare name="Resp, Nome" type="String" array="False" size=""/>
+            <do expression="Resp=&quot;Sim&quot;">
+                <output expression="&quot;Informe o nome&quot;" newline="True"/>
+                <input variable="Nome"/>
+                <output expression="&quot;Informe a idade&quot;" newline="True"/>
+                <input variable="idade"/>
+                <output expression="Nome &amp; &quot; tem &quot; &amp; idade &amp; &quot; anos&quot;" newline="True"/>
+                <output expression="&quot;Deseja continuar: Sim ou N&#227;o?&quot;" newline="True"/>
+                <input variable="Resp"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>

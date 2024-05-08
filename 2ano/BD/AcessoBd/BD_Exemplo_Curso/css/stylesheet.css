@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-image: url(https://i.imgur.com/XbRg9D7.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed
+  
+}
+
+.louis_sera{
+  background-image: url(https://i.imgur.com/K8lDBYU.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  border-bottom: 2px solid #7f327a;
+  color: #7f327a;
+  border-bottom: 2px solid #7f327a;
+}
+
+.john_marston {
+  background-image: url(../imagens/img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  border-bottom: 2px solid #5213a2;
+  color: #5213a2;
+  border-bottom: 2px solid #5213a2;
+}
+
+.jake {
+  background-image: url(../imagens/login-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #a285de;
+}
+
+.willian_afton {
+  background-image: url(../imagens/img2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  border-bottom: 2px solid #922d4f;
+  color: #922d4f;
+  border-bottom: 2px solid #922d4f;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 100px;
+}
+
+.card {
+  background-color: #ffffff80;
+  padding: 30px;
+  border-radius: 4%;
+  box-shadow: 3px 3px 1px 0px #00000060;
+  width: 400px;
+}
+
+.batata {
+  background-color: #ffffff80;
+  padding: 30px;
+  border-radius: 4%;
+  box-shadow: 3px 3px 1px 0px #00000060;
+  width: 400px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12%;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0d009c;
+}
+
+.louis_sera h1{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #7f327a;
+}
+
+.john_marston h1{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #5213a2;
+}
+
+.jake h1{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0d009c;
+}
+
+.willian_afton h1{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #922d4f;
+}
+
+.label-float input{
+  width: 100%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 0;
+  border-bottom: 2px solid #0d009c;
+  background-color: transparent;
+  outline: none;
+  min-width: 180px;
+  font-size: 16px;
+  transition: all .3s ease-out;
+  border-radius: 0;
+  
+}
+
+.louis_sera .label-float input{
+  width: 100%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 0;
+  border-bottom: 2px solid #7f327a;
+  background-color: transparent;
+  outline: none;
+  min-width: 180px;
+  font-size: 16px;
+  transition: all .3s ease-out;
+  border-radius: 0;
+  
+}
+
+.john_marston .label-float input{
+  width: 100%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 0;
+  border-bottom: 2px solid #5213a2;
+  background-color: transparent;
+  outline: none;
+  min-width: 180px;
+  font-size: 16px;
+  transition: all .3s ease-out;
+  border-radius: 0;
+  
+}
+.jake .label-float input{
+  width: 100%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 0;
+  border-bottom: 2px solid #0d009c;
+  background-color: transparent;
+  outline: none;
+  min-width: 180px;
+  font-size: 16px;
+  transition: all .3s ease-out;
+  border-radius: 0;
+  
+}
+
+.willian_afton .label-float input{
+  width: 100%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 0;
+  border-bottom: 2px solid #922d4f;
+  background-color: transparent;
+  outline: none;
+  min-width: 180px;
+  font-size: 16px;
+  transition: all .3s ease-out;
+  border-radius: 0;
+  
+}
+
+.label-float{
+  position: relative;
+  padding-top: 13px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.label-float input:focus{
+  border-bottom: 2px solid #4038a0;
+}
+
+.louis_sera .label-float input:focus{
+  border-bottom: 2px solid #7f327a;
+}
+
+.john_marston .label-float input:focus{
+  border-bottom: 2px solid #5213a2;
+}
+
+.willian_afton .label-float input:focus{
+  border-bottom: 2px solid #922d4f;
+}
+
+.label-float label{
+  color: #0d009c;
+  pointer-event: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 13px;
+  transition: all .3s ease-out;
+}
+
+.louis_sera .label-float label{
+  color: #7f327a;
+  pointer-event: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 13px;
+  transition: all .3s ease-out;
+}
+
+.john_marston .label-float label{
+  color: #5213a2;
+  pointer-event: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 13px;
+  transition: all .3s ease-out;
+}
+
+.willian_afton .label-float label{
+  color: #922d4f;
+  pointer-event: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 13px;
+  transition: all .3s ease-out;
+}
+
+.label-float input:focus + label,
+.label-float input:valid + label{
+  font-size: 13px;
+  margin-top: 0;
+  color: #4038a0
+}
+
+.louis_sera .label-float input:focus + label,
+.louis_sera .label-float input:valid + label{
+  font-size: 13px;
+  margin-top: 0;
+  color: #7f327a
+}
+
+.john_marston .label-float input:focus + label,
+.john_marston .label-float input:valid + label{
+  font-size: 13px;
+  margin-top: 0;
+  color: #5213a2
+}
+
+.jake .label-float input:focus + label,
+.jake .label-float input:valid + label{
+  font-size: 13px;
+  margin-top: 0;
+  color: #7f327a
+}
+
+.willian_afton .label-float input:focus + label,
+.willian_afton .label-float input:valid + label{
+  font-size: 13px;
+  margin-top: 0;
+  color: #922d4f
+}
+
+button{
+  background-color: transparent;
+  border-color: #0d009c;
+  color: #0d009c;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 12pt;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: all .4s ease-out;
+}
+
+.louis_sera button{
+  background-color: transparent;
+  border-color: #7f327a;
+  color: #7f327a;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 12pt;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: all .4s ease-out;
+}
+
+.john_marston button{
+  background-color: transparent;
+  border-color: #5213a2;
+  color: #5213a2;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 12pt;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: all .4s ease-out;
+}
+
+.jake button{
+  background-color: transparent;
+  border-color: #a285de;
+  color: #a285de;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 12pt;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: all .4s ease-out;
+}
+
+.willian_afton button{
+  background-color: transparent;
+  border-color: #922d4f;
+  color: #922d4f;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 12pt;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: all .4s ease-out;
+}
+
+button:hover{
+  background-color: #0d009c;
+  color: #fff;
+}
+
+.louis_sera button:hover{
+  background-color: #a285de!important;
+  color: #fff;
+}
+
+.john_marston button:hover{
+  background-color: #5213a2!important;
+  color: #fff;
+}
+
+.jake button:hover{
+  background-color: #a285de!important;
+  color: #fff;
+}
+
+.willian_afton button:hover{
+  background-color: #922d4f!important;
+  color: #fff;
+}
+
+a button{
+  background-color: transparent;
+  border-color: #0d009c;
+  color: #FFF;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 12pt;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: all .4s ease-out;
+}
+
+button #arthur_morgan{
+  background-color: transparent;
+  border-color: #0d009c;
+  color: #0d009c;
+  padding: 7px;
+  font-weight: bold;
+  font-size: 12pt;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  transition: all .4s ease-out;
+  text-decoration: none;
+}
+
+ button:hover #arthur_morgan{
+  background-color: #0d009c;
+  color: #fff;
+}
+
+.justify-center{
+  display: flex;
+  justify-content: center;
+}
+
+.fa-eye{
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  cursor: pointer;
+  color: #0d009c;
+}
+
+#msgError{
+  text-align: center;
+  color: #ff0000;
+  background-color: #ffbbbb;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
+
+#msgSuccess{
+  text-align: center;
+  color: #00bb00;
+  background-color: #bbffbe;
+  padding: 10px;
+  border-radius: 4px;
+  display: none;
+}
+
+table{
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-70%);
+  width: 60%; 
+  border-collapse: collapse;
+  border-spacing: 0;
+  border-radius: 2%;
+  box-shadow: 3px 3px 1px 0px #00000060;
+  overflow: hidden;
+ }
+
+ .dutch{
+  position: absolute;
+  left: 50%;
+  top: 70%;
+ }
+ 
+ td , th{
+     padding: 12px 15px;
+     text-align: center;
+     background-color: #ffffff80;
+     color: #9472dc;
+    }
+ 
+ th{
+     font-family: 'Open Sans',Sans-serif;
+     font-weight: 200;
+     text-transform: uppercase;
+     background-color: #ffffff80;
+     color: #9472dc;
+ }
+    
+ tr{
+     width: 100%;
+     font-family: 'Montserrat', sans-serif;
+    }
+ 
+ tr:nth-child(even){
+  background-color: #ffffff80;
+  }

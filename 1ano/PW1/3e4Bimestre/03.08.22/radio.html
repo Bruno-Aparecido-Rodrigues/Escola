@@ -1,0 +1,39 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+         <title>muda de cor</title>
+
+         <Script language =javascript>
+             function MudaCor(cor)
+         {
+             switch (cor)
+             {
+                 case 'Amarelo': document.bgColor='yellow'; break;
+                 case 'Azul': document.bgColor='blue'; break;
+                 case 'Ciano': document.bgColor='cyan'; break;
+                 case 'Verde': document.bgColor='green'; break;
+                 case 'Vermelho': document.bgColor='red'; break;
+                 case 'Padão': document.bgColor='white'; break;
+             }
+         }
+
+         </Script>
+    </head>
+	
+	<body>
+	<form name= "formulario">
+    <b><i>
+    selecione uma cor para o fundo da tela:
+    </i></b>
+    <br><br>
+    <input type="radio"name= "fundo" onclick="MudaCor('Amarelo') ">Amarelo<br>
+    <input type="radio"name= "fundo" onclick="MudaCor('Azul') ">Azul<br>
+    <input type="radio"name= "fundo" onclick="MudaCor('Ciano') ">Ciano<br>
+    <input type="radio"name= "fundo" onclick="MudaCor('Verde') ">Verde<br>
+    <input type="radio"name= "fundo" onclick="MudaCor('Vermelho') ">Vermelho<br>
+    <input type="radio"name= "fundo" onclick="MudaCor('Padrão') ">Padrão<br>
+    </form>
+    
+	</body>
+
+</html>

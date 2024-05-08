@@ -1,0 +1,23 @@
+<html>
+    <head>
+         <title>Tags para Alinhamentos</title>
+    </head>
+	
+	<body>
+        <h4 align="center">Título Centralizado</h4>
+		<h4 align="right">Título à Direita</h4>
+		<h4 align="left">Título à Esquerda</h4>
+		<hr>
+		<p align="center">Parágrafo ao Centro</p>
+		<p align="right">parágrafo à Direita</p>
+		<p align="left">parágrafo à Esquerda</p>
+		<p align="justify">Este é um texto justificado. Na linguagem HTML temos vários tipos de alinhamentos que você poderá aplicar em sua página. Nesta parte do livro, veremos como alinhar linhas, parágrafos e cabeçalhos.</p>
+		<br>
+		<br>
+		<hr width=50% align=center>
+		<blockquote>Texto com miasmargem</blockquote>
+		<blovckquote><blockquote>TEm com mais margem ainda</blockquote></blockquote>
+		<center>
+	</body>
+
+</html>

@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="dti"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-05-11 04:47:52 "/>
+        <attribute name="created" value="ZHRpO0xBQjEwNC0xMTsyMDIyLTA1LTExOyIwMzoxNjo0MCAiOzIwMDI="/>
+        <attribute name="edited" value="ZHRpO0xBQjEwNC0xMTsyMDIyLTA1LTExOyIwMzoxNjo0OCAiOzE7ZHRpO0xBQjEwNC0xMTsyMDIyLTA0LTI3OyIwMjozODo0NyAiO25vdGEuZnByZzs1MTY1"/>
+        <attribute name="edited" value="ZHRpO0xBQjEwNC0xMTsyMDIyLTA1LTExOyIwMzoyNToxNSAiOzI7MjExMw=="/>
+        <attribute name="edited" value="ZHRpO0xBQjIwMy0wNzsyMDIyLTA1LTExOyIwNDo0Nzo1MiAiOzE7MjEyMw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite sua primeira nota de 0 a 10&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Digite sua segunda nota de 0 a 10&quot;" newline="True"/>
+            <input variable="nota2"/>
+            <output expression="&quot;Digite sua terceira nota de 0 a 10&quot;" newline="True"/>
+            <input variable="nota3"/>
+            <output expression="&quot;Digite sua quarta nota de 0 a 10&quot;" newline="True"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <if expression="media&lt;2.5">
+                <then>
+                    <output expression="&quot;Sua m&#233;dia foi E&quot;" newline="True"/>
+                    <output expression="&quot;Voc&#234; foi reprovado&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="media&lt;5">
+                        <then>
+                            <output expression="&quot;Sua m&#233;dia foi D&quot;" newline="True"/>
+                            <output expression="&quot;Voc&#234; foi reprovado&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="media&lt;7">
+                                <then>
+                                    <output expression="&quot;Sua m&#233;dia foi C&quot;" newline="True"/>
+                                    <output expression="&quot;Voc&#234; foi aprovado&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="media&lt;9">
+                                        <then>
+                                            <output expression="&quot;Sua m&#233;dia foi B&quot;" newline="True"/>
+                                            <output expression="&quot;Voc&#234; foi aprovado&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="media&gt;=9">
+                                                <then>
+                                                    <output expression="&quot;Sua m&#233;dia foi A&quot;" newline="True"/>
+                                                    <output expression="&quot;Voc&#234; foi aprovado&quot;" newline="True"/>
+                                                </then>
+                                                <else/>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

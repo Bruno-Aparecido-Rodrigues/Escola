@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="FATEC ZONA LESTE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-06-08 03:31:18 "/>
+        <attribute name="created" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDk7MjAyMi0wNi0wODsiMDM6MTA6MTMgIjsyODAw"/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDk7MjAyMi0wNi0wODsiMDM6MTA6NDMgIjsxO0ZBVEVDIFpPTkEgTEVTVEU7TEFCMTAzLTA5OzIwMjItMDYtMDg7IjAzOjA2OjA2ICI7ZXhlbXBsbyA2LmZwcmc7NzE2MQ=="/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMDk7MjAyMi0wNi0wODsiMDM6MTI6MTIgIjsxOzI5MDk="/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMTI7MjAyMi0wNi0wODsiMDM6Mjc6MDQgIjsxO0ZBVEVDIFpPTkEgTEVTVEU7TEFCMTAzLTA5OzIwMjItMDYtMDg7IjAzOjA2OjA2ICI7ZXhlbXBsbyA2LmZwcmc7NzE2MA=="/>
+        <attribute name="edited" value="RkFURUMgWk9OQSBMRVNURTtMQUIxMDMtMTI7MjAyMi0wNi0wODsiMDM6MzE6MTggIjsxOzI5MTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="an, aa, ida, id2050" type="Real" array="False" size=""/>
+            <declare name="Resp" type="String" array="False" size=""/>
+            <assign variable="aa" expression="2022"/>
+            <do expression="Resp=&quot;N&#227;o&quot;">
+                <output expression="&quot;Digite o ano em que voc&#234; nasceu&quot;" newline="True"/>
+                <input variable="an"/>
+                <assign variable="ida" expression="aa-an"/>
+                <assign variable="id2050" expression="2050-an"/>
+                <output expression="&quot;Sua idade atual &#233; &quot; &amp; ida" newline="True"/>
+                <output expression="&quot;Sua idade em 2050 ser&#225;=&quot; &amp; id2050" newline="True"/>
+                <output expression="&quot;deseja calcular novamente?&quot;" newline="True"/>
+                <input variable="Resp"/>
+            </do>
+        </body>
+    </function>
+</flowgorithm>
